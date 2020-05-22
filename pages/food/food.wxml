@@ -1,0 +1,13 @@
+<!-- 搜索区 -->
+<view id="header">
+  <view class="address">北京</view>
+  <input class="input" placeholder="请输入你想要的东西"></input>
+</view>
+
+<!-- 分类区 -->
+<view>
+  <view>
+    <image></image>
+    <view></view>
+  </view>
+</view>

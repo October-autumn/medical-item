@@ -1,0 +1,31 @@
+<swiper class="swiper" autoplay interval="3000" circular bindchange="changeCount">
+  <swiper-item wx:for="{{swiperList}}" wx:key="index">
+    <navigator url="{{item.url}}">
+      <image src="{{item.image}}"></image>
+      <view class="swiper-title">{{item.title}}</view>
+      <view class="swiper-count">{{swiperCount}}/{{swiperList.length}}</view>
+    </navigator>
+  </swiper-item>
+</swiper>
+
+<!-- 每日一测 -->
+<view class="food">
+  <view class="food-item" wx:for="{{food}}" wx:key="index">
+    <image class="food-img" src="{{item.img}}"></image>
+    <view class="food-title">{{item.title}}</view>
+  </view>
+</view>
+
+<!-- 列表 -->
+<view class="list">
+  <view class="list-item" wx:for="{{list}}" wx:key="index">
+    <navigator url="../indexDetail/indexDetail?id={{item.id}}">
+      <view class="list-title">{{item.title}}</view>
+      <view class="list-box">
+        <view><image class="list-img" src="{{item.image}}"></image></view>
+        <view><view class="list-detail">{{item.desc}}</view></view>
+      </view>
+      <view class="readed"><text>{{item.readNum}}</text> 阅读</view>
+    </navigator>
+  </view>
+</view>

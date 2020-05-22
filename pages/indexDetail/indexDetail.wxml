@@ -1,0 +1,5 @@
+<view>
+  <view class="title">{{content.title}}</view>
+  <image class="img" src="{{content.image}}"></image>
+  <view class="detail">{{content.detail}}</view>
+</view>

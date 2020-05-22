@@ -1,0 +1,92 @@
+.swiper {
+  width: 100%;
+  height: 388rpx;
+  position: relative;
+}
+.swiper image {
+  width: 100%;
+  height: 388rpx;
+}
+.swiper-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 60rpx;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}
+.swiper-count {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  right: 40rpx;
+  height: 60rpx;
+  text-align: right;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+
+/* 每日一测 */
+.food {
+  margin: 34rpx 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20rpx;
+}
+.food-img {
+  width: 306rpx;
+  height: 186rpx;
+  border-radius: 10rpx;
+}
+.food-title {
+  text-align: center;
+  color: #666;
+}
+
+/* 列表 */
+.list {
+  padding: 0 20rpx;
+}
+.list-item {
+  position: relative;
+}
+.list-title {
+  font-size: 32rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.list-box {
+  display: flex;
+  padding: 20rpx 0;
+}
+.list-img {
+  width: 250rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.list-detail {
+  color: #666;
+  font-size: 30rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.readed {
+  position: absolute;
+  right: 0;
+  bottom: 20rpx;
+  font-size: 28rpx;
+}
+.readed text {
+  color: red
+}

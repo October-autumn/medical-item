@@ -1,0 +1,11 @@
+.title {
+  font-size: 36rpx;
+}
+.img {
+  width: 100%;
+  height: 388rpx;
+}
+.detail {
+  color: #666;
+  text-indent: 2em;
+}
